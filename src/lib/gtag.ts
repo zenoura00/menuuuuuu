@@ -1,8 +1,7 @@
 export const GA_TRACKING_ID = "G-9LTN2RYHPG";
 
-// Google Sheets Web App URL - Replace with your deployed Apps Script URL
-// After deploying your Apps Script, paste the URL here
-export const GOOGLE_SHEETS_WEBHOOK_URL = "";
+// Google Sheets Web App URL
+export const GOOGLE_SHEETS_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbxKaEFT5mxUSmAc80-eF7j9WH0lZi9VB4YF5DcZlPwiZVAV9qXnMIAG9-H9u6I6yzPhgA/exec";
 
 // Generate a simple session ID for tracking
 const getSessionId = () => {
