@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.heisslounge.com"
+        }
+      ],
+      "destination": "https://heisslounge.com/:path*",
+      "permanent": true
+    }
+  ]
+}
